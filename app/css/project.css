@@ -1,0 +1,143 @@
+.add-project {
+    width: 182px;
+    height: 128px;
+    border: 1px dashed rgb(59, 168, 192);
+    background: rgb(236, 251, 255) url(../img/add-img.png) no-repeat center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#element_to_pop_up {
+    display: none;
+}
+
+.add-project-wrap {
+    width: 362px;
+    height: 493px;
+    background-color: #eff3f7;
+    border-radius: 5px;
+    box-shadow: 0px 6px 12.48px 0.52px rgba(13, 16, 7, 0.35);
+    overflow: hidden;
+}
+
+.add-project-title {
+    margin: 0;
+    padding: 0 13px;
+    height: 53px;
+    font-size: 25px;
+    background-color: #48cbe8;
+    color: #fff;
+    border-bottom: 9px solid #67dffa;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+.pop-up-close {
+    float: right;
+    background: #48cbe8 url(../img/close.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-project-form {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.add-project-label {
+    display: inline-block;
+    font-size: 17px;
+    color: #959aa8;
+    font-family: 'firasans-book', sans-serif;
+}
+
+.add-project-input {
+    display: block;
+    width: 320px;
+    height: 41px;
+    border: 1px solid rgb(72, 203, 232);
+    border-radius: 4px;
+    font-family: 'firasans-light', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #48cbe8;
+}
+
+.upload-wrap {
+    position: relative;
+}
+
+.upload-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 270px;
+    z-index: 9;
+    cursor: pointer;
+    background: #fff url(../img/upload.png) center center no-repeat;
+}
+
+.add-file {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+
+.upload-text {
+    width: 320px;
+    height: 41px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid rgb(72, 203, 232);
+    border-radius: 4px;
+    font-family: 'firasans-light', sans-serif;
+    font-size: 13px;
+    color: #48cbe8;
+    outline: 0px;
+}
+
+.add-project-description {
+    display: block;
+    width: 320px;
+    height: 110px;
+    border: 1px solid rgb(72, 203, 232);
+    border-radius: 4px;
+    font-family: 'firasans-light', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 11px;
+}
+
+.add-project-submit {
+    display: block;
+    color: #fff;
+    background-color: #48cbe8;
+    border-radius: 5px;
+    width: 140px;
+    height: 33px;
+    border: none;
+    border-bottom: 4px solid #3ba8c0;
+    font-size: 19px;
+    line-height: 31px;
+    margin: 0 auto;
+}
+
+.add-project-submit:active {
+    border: none;
+    border-bottom: 1px solid #3ba8c0;
+    border-top: 1px solid #3ba8c0;
+    font-size: 18px;
+}
+
+.add-project-submit:focus {
+    outline: none;
+}
+
+
+}
+
+}

@@ -1,0 +1,99 @@
+.variable__block__info {
+    min-height: 842px;
+}
+
+.preview-wrap {
+    width: 182px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.preview__body {
+    margin: 0 20px;
+}
+
+
+/* begin hover effect*/
+
+.preview-list {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.preview-item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.peview-img-wrap {
+    border: 2px solid rgb(59, 168, 192);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.peview-img-wrap:hover .peview-img-link {
+    display: block;
+}
+
+.peview-img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+}
+
+.peview-img-link {
+    display: none;
+    background: url(../img/transparent-bg.png) no-repeat;
+    height: 125px;
+    width: 178px;
+    position: absolute;
+    border-radius: 4.5px;
+}
+
+.peview-img-text {
+    z-index: 10;
+    text-decoration: none;
+    color: #fff;
+    min-width: 66px;
+    max-width: 75%;
+    min-height: 22px;
+    font-size: 12px;
+    font-family: 'firasans-book', sans-serif;
+    border: 2.5px solid rgb(239, 243, 247);
+    border-radius: 4px;
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    left: 55px;
+    overflow: hidden;
+}
+
+
+/* end hover effect*/
+
+.figcaption {
+    text-align: center;
+}
+
+.site-name {
+    color: #3ba8c0;
+    font-family: 'firasans-lightitalic', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.project-info {
+    font-family: 'firasans-light', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
