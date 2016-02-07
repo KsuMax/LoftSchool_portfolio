@@ -1,0 +1,14 @@
+body{
+	background-color: black;
+	background: url(../Lifecycle.png);
+}
+h1{
+	color: red;
+}
+.hoho{
+	width:100px;
+	height: 100px;
+	background-color: green;
+}
+html{color:red}
+/*Больше ни чего не надо!!*/
