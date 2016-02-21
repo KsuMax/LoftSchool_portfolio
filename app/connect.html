@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js" prefix="og: http://ogp.me/ns#"> 
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Связаться со мной</title>
+  <!-- SEO-->
+  <meta name="description" content="Portfolio"/>
+  <meta name="keywords" content=""/>
+  <meta name="author" content="Kseniya Maksakova"/>
+  <!-- favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <!-- vendor CSS-->
+  <link rel="stylesheet" href="bower/normalize-css/normilize.css"/>
+  <!-- fonts CSS-->
+  <link rel="stylesheet" href="fonts/fira/fira.css"/>
+  <link rel="stylesheet" href="fonts/Proxima-Nova/proximanovacond-semibold.css"/>
+  <!-- custom CSS-->
+   <link rel="stylesheet" href="css/main.css"/>
+   <link rel="stylesheet" href="css/connect.css"/>
+   <!--[if lt IE 9]>
+    <script src="bower/html5shiv/dist/html5shiv.min.js">
+    </script>
+    <![endif]-->
+</head>
+<body>
+  <div class="page-row">
+   <header class="main-header clearfix">
+      <div class="wrapper-big"><a href="index.html" class="site-logo"><img src="img/logo.png" alt="Logo"/></a>
+        <ul class="header-social-icons-list">
+          <li class="header-social-icon-item"><a href="https://vk.com/ksumax" target="_blank" class="header-social-icon-link header-social-icon-link-vk">vk.com/ksumax</a></li>
+          <li class="header-social-icon-item"><a href="https://twitter.com/very_proud" target="_blank" class="header-social-icon-link header-social-icon-link-tw">twitter.com</a></li>
+          <li class="header-social-icon-item"><a href="https://www.facebook.com/ksumax" target="_blank" class="header-social-icon-link header-social-icon-link-fb">facebook.com</a></li>
+          <li class="header-social-icon-item"><a href="https://github.com/KsuMax" target="_blank" class="header-social-icon-link header-social-icon-link-gh">github.com</a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+  <main class="page-row page-row-expanded clearfix">
+    <div class="wrapper">
+      <!-- Sidebar-->
+      <aside class="sidebar">
+        <nav>
+          <ul class="sidebar__nav__list">
+            <li class="sidebar__nav__item"><a href="index.html" class="sidebar__nav-link">Обо мне</a></li>
+            <li class="sidebar__nav__item"><a href="works.html" class="sidebar__nav-link">Мои работы</a></li>
+            <li class="sidebar__nav__item sidebar__nav__item-curent"><a href="connect.html" class="sidebar__nav-link">Связаться со мной</a></li>
+          </ul>
+        </nav>
+        <div class="contacts">
+           <h2 class="contacts__header"><span class="contacts__header__text">Контакты</span></h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><a href="mailto:ksu.maksakova@yandex.ru" class="contacts__link contacts__item-mail"><span class="contacts__link__text">ksu.maksakova@ya.ru</span></a></li>
+            <li class="contacts__item"><a href="tel:+79817777889" class="contacts__link contacts__link-phone"><span class="contacts__link__text">+7 (981) 777-78-89</span></a></li>
+            <li class="contacts__item"><a href="skype:ksu.maksakova" class="contacts__link contacts__link-skype"><span class="contacts__link__text">ksu.maksakova</span></a></li>
+          </ul>
+        </div>
+      </aside>
+      <section class="variable-block">
+        <div class="touch-form">
+          <div class="touch-form-title">У вас интересный проект? Напишите мне</div>
+          <div class="touch-form-wrap">
+            <form id="contact-me" action="#" method="POST" role="form" class="autorization-form">
+              <label class="touch-label">Имя
+                <input id="login-field" type="text" name="login" placeholder="Как к Вам обращаться" qtip-content="Вы не ввели имя" qtip-position="left" class="touch-input"/>
+              </label>
+              <label class="touch-label">Email
+                <input id="mail-field" type="email" name="email" placeholder="Куда мне писать" qtip-content="Вы не ввели email" qtip-position="right" class="touch-input"/>
+              </label>
+              <label class="touch-label">Сообщение
+                <textarea id="message-field" name="message" rows="10" placeholder="Кратко в чем суть" qtip-content="Ваш вопрос" qtip-position="left" class="touch-message"></textarea>
+              </label>
+              <label class="touch-label touch-capcha-label">Введите код, указанный на картинке
+                <div class="capcha-wrap">
+                  <div class="capcha"><img src="img/capcha.png" alt="capcha"/></div>
+                  <input id="captcha-field" type="text" name="captcha" placeholder="Введите код" qtip-content="Вы не ввели код" qtip-position="right" class="capcha-input"/>
+                </div>
+              </label>
+              <input type="submit" value="Отправить" class="touch-submit touch-btn"/>
+              <input type="reset" value="Очистить" class="touch-reset touch-btn"/>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div class="page-row">
+    <footer class="page-footer">
+      <div class="wrapper container">
+        <div class="lock"><a href="form.html" class="lock-inner"></a></div>
+        <div class="copyright">&copy; 2015. Это мой сайт, пожалуйста не копируйте и не воруйте его</div>
+      </div>
+    </footer>
+  </div>
+  <!-- vendor js-->
+  <script src="bower/jquery/jquery.min.js"></script>
+  <script src="bower/qtip2/jquery.qtip.min.js"></script>
+  <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KsuMax/LoftSchool_portfolio.git"
+  },
+  "keywords": [
+    "Kseniya",
+    "Maksakova"
+  ],
+  "author": "Kseniya Maksakova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KsuMax/LoftSchool_portfolio/issues"
+  },
+  "homepage": "https://github.com/KsuMax/LoftSchool_portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
